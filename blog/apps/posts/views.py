@@ -9,3 +9,6 @@ def post(request):
     posts = Post.objects.all()
     context = {'posts': posts}
     return render(request, 'posts/post.html', context)
+
+def developers(request):
+    return render(request,'posts/developers.html')

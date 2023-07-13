@@ -1,0 +1,31 @@
+.carousel {
+  width: 35vw;
+  height: 45vh;
+  }
+
+.d-block{
+  width: inherit;
+  height: inherit;
+  }
+
+.card_bg_img {
+  background-image: url('../img/AI_footer_bg.png');
+  background-repeat: no-repeat;
+  background-size:contain;
+  }
+
+.social-icon-github {
+  color: #000000;
+  }
+
+.social-icon-linkedin {
+  color: #00bbf0;
+  }
+
+.social-icon-github:hover {
+  color: #ffc107;
+  }
+
+.social-icon-linkedin:hover {
+  color: #ffc107;
+  }

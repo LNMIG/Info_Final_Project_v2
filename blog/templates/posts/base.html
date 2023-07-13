@@ -11,9 +11,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Custom CSS -->
-  <link href="./static/css/posts_base.css" rel="stylesheet">
-  <link href="./static/css/posts_header.css" rel="stylesheet">
-  <link href="./static/css/posts_footer.css" rel="stylesheet">
+  <link href="../../static/css/posts_base.css" rel="stylesheet">
+  <link href="../../static/css/posts_header.css" rel="stylesheet">
+  <link href="../../static/css/posts_footer.css" rel="stylesheet">
+  <link href="../../static/css/social_icons.css" rel="stylesheet">
 
   <!-- Custom Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,13 +30,14 @@
 
 <body>
   <header class="w-100 text-white header_bg_color">
+ 
     {% include 'posts/header.html' %}
-  </header>
 
-  <!-- place navbar here -->
-  <nav class="w-100 h-10 mt-2 pt-1 pb-1 text-white nav_bg_color">
-    {% include 'posts/navigation.html' %}
-  </nav>
+    <!-- place navbar here -->
+    <nav class="w-100 h-10 pt-1 pb-1 text-white nav_bg_color">
+      {% include 'posts/navigation.html' %}
+    </nav>
+  </header>
 
   <!-- place main content here -->
   <main>

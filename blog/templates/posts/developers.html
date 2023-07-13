@@ -1,0 +1,271 @@
+{% extends 'posts/base.html' %}
+{% load static %}
+
+{% block title %}
+Desarrolladores
+{% endblock title %}
+
+{% block content %}
+
+{% comment %} <div id="carouselDevs" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <div class="card rounded-3 border border-3 card_bg_img">
+        <img
+          src="{% static 'img/Luis.jpg' %}"
+          class="card-img-top w-25 p-25 rounded-circle mx-auto border border-3 border-secondary"
+          alt="Slide 1"
+        >
+        <div class="card-body rounded-3">
+          <h5 class="card-title text-center fst-italic">Luis Migliore</h5>
+          <p class="card-text text-center">
+            Python - Django - SQL
+            <br>
+            <span class="fst-italic text-info">developer</span>
+          </p>
+          <span class="card-text fs-2 d-flex justify-content-center gap-3">
+            <a href="https://github.com/LNMIG" target="_blank" ><i class="bi bi-github social-icon-github"></i></a>
+            <a href="https://www.linkedin.com/in/engineer-luis-migliore/" target="_blank"><i class="bi bi-linkedin social-icon-linkedin"></i></a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="card rounded-3 border border-3 card_bg_img">
+        <img
+          src="{% static 'img/Luis.jpg' %}"
+          class="card-img-top w-25 p-25 rounded-circle mx-auto border border-3 border-secondary"
+          alt="Slide 2"
+        >
+        <div class="card-body rounded-3">
+          <h5 class="card-title text-center fst-italic">Luis Migliore</h5>
+          <p class="card-text text-center">
+            Python - Django - SQL
+            <br>
+            <span class="fst-italic text-info">developer</span>
+          </p>
+          <span class="card-text fs-2 d-flex justify-content-center gap-3">
+            <a href="https://github.com/LNMIG" target="_blank" ><i class="bi bi-github social-icon-github"></i></a>
+            <a href="https://www.linkedin.com/in/engineer-luis-migliore/" target="_blank"><i class="bi bi-linkedin social-icon-linkedin"></i></a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="card rounded-3 border border-3 card_bg_img">
+        <img
+          src="{% static 'img/Luis.jpg' %}"
+          class="card-img-top w-25 p-25 rounded-circle mx-auto border border-3 border-secondary"
+          alt="Slide 3"
+        >
+        <div class="card-body rounded-3">
+          <h5 class="card-title text-center fst-italic">Luis Migliore</h5>
+          <p class="card-text text-center">
+            Python - Django - SQL
+            <br>
+            <span class="fst-italic text-info">developer</span>
+          </p>
+          <span class="card-text fs-2 d-flex justify-content-center gap-3">
+            <a href="https://github.com/LNMIG" target="_blank" ><i class="bi bi-github social-icon-github"></i></a>
+            <a href="https://www.linkedin.com/in/engineer-luis-migliore/" target="_blank"><i class="bi bi-linkedin social-icon-linkedin"></i></a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="card rounded-3 border border-3 card_bg_img">
+        <img
+          src="{% static 'img/Luis.jpg' %}"
+          class="card-img-top w-25 p-25 rounded-circle mx-auto border border-3 border-secondary"
+          alt="Slide 4"
+        >
+        <div class="card-body rounded-3">
+          <h5 class="card-title text-center fst-italic">Luis Migliore</h5>
+          <p class="card-text text-center">
+            Python - Django - SQL
+            <br>
+            <span class="fst-italic text-info">developer</span>
+          </p>
+          <span class="card-text fs-2 d-flex justify-content-center gap-3">
+            <a href="https://github.com/LNMIG" target="_blank" ><i class="bi bi-github social-icon-github"></i></a>
+            <a href="https://www.linkedin.com/in/engineer-luis-migliore/" target="_blank"><i class="bi bi-linkedin social-icon-linkedin"></i></a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="card rounded-3 border border-3 card_bg_img">
+        <img
+          src="{% static 'img/Luis.jpg' %}"
+          class="card-img-top w-25 p-25 rounded-circle mx-auto border border-3 border-secondary"
+          alt="Slide 5"
+        >
+        <div class="card-body rounded-3">
+          <h5 class="card-title text-center fst-italic">Luis Migliore</h5>
+          <p class="card-text text-center">
+            Python - Django - SQL
+            <br>
+            <span class="fst-italic text-info">developer</span>
+          </p>
+          <span class="card-text fs-2 d-flex justify-content-center gap-3">
+            <a href="https://github.com/LNMIG" target="_blank" ><i class="bi bi-github social-icon-github"></i></a>
+            <a href="https://www.linkedin.com/in/engineer-luis-migliore/" target="_blank"><i class="bi bi-linkedin social-icon-linkedin"></i></a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselDevs" data-bs-slide="prev">
+    <i class="bi bi-chevron-double-left fs-2 text-warning"></i>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselDevs" data-bs-slide="next">
+    <i class="bi bi-chevron-double-right fs-2 text-warning"></i>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> {% endcomment %}
+
+
+
+
+{% comment %} <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+    <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img src="{% static 'img/Luis.jpg' %}" class="w-100 d-block" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'img/Luis.jpg' %}" class="w-100 d-block" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'img/Luis.jpg' %}" class="w-100 d-block" alt="Third slide">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <i class="bi bi-chevron-double-left fs-2 text-warning"></i>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <i class="bi bi-chevron-double-right fs-2 text-warning"></i>
+    <span class="visually-hidden">Next</span>
+    </button>
+</div> {% endcomment %}
+
+
+<div class="card-group gap-3">
+
+  <div class="card rounded-3 border border-3 card_bg_img">
+    <img
+      src="{% static 'img/Luis.jpg' %}"
+      class="card-img-top w-25 p-25 rounded-circle mx-auto border border-3 border-secondary"
+      alt="..."
+    >
+    <div class="card-body rounded-3">
+      <h5 class="card-title text-center fst-italic">Luis Migliore</h5>
+      <p class="card-text text-center">
+        Python - Django - SQL
+        <br>
+        <span class="fst-italic text-info">developer</span>
+      </p>
+      <span class="card-text fs-2 d-flex justify-content-center gap-3">
+        <a href="https://github.com/LNMIG" target="_blank" ><i class="bi bi-github social-icon-github"></i></a>
+        <a href="https://www.linkedin.com/in/engineer-luis-migliore/" target="_blank"><i class="bi bi-linkedin social-icon-linkedin"></i></a>
+      </span>
+    </div>
+  </div>
+
+  <div class="card rounded-3 border border-3 card_bg_img">
+    <img
+      src="{% static 'img/Luis.jpg' %}"
+      class="card-img-top w-25 p-25 rounded-circle mx-auto border border-3 border-secondary"
+      alt="..."
+    >
+    <div class="card-body rounded-3">
+      <h5 class="card-title text-center fst-italic">Luis Migliore</h5>
+      <p class="card-text text-center">
+        Python - Django - SQL
+        <br>
+        <span class="fst-italic text-info">developer</span>
+      </p>
+      <span class="card-text fs-2 d-flex justify-content-center gap-3">
+        <a href="https://github.com/LNMIG" target="_blank" ><i class="bi bi-github social-icon-github"></i></a>
+        <a href="https://www.linkedin.com/in/engineer-luis-migliore/" target="_blank"><i class="bi bi-linkedin social-icon-linkedin"></i></a>
+      </span>
+    </div>
+  </div>
+
+  <div class="card rounded-3 border border-3 card_bg_img">
+    <img
+      src="{% static 'img/Luis.jpg' %}"
+      class="card-img-top w-25 p-25 rounded-circle mx-auto border border-3 border-secondary"
+      alt="..."
+    >
+    <div class="card-body rounded-3">
+      <h5 class="card-title text-center fst-italic">Luis Migliore</h5>
+      <p class="card-text text-center">
+        Python - Django - SQL
+        <br>
+        <span class="fst-italic text-info">developer</span>
+      </p>
+      <span class="card-text fs-2 d-flex justify-content-center gap-3">
+        <a href="https://github.com/LNMIG" target="_blank" ><i class="bi bi-github social-icon-github"></i></a>
+        <a href="https://www.linkedin.com/in/engineer-luis-migliore/" target="_blank"><i class="bi bi-linkedin social-icon-linkedin"></i></a>
+      </span>
+    </div>
+  </div>
+
+  <div class="card rounded-3 border border-3 card_bg_img">
+    <img
+      src="{% static 'img/Luis.jpg' %}"
+      class="card-img-top w-25 p-25 rounded-circle mx-auto border border-3 border-secondary"
+      alt="..."
+    >
+    <div class="card-body rounded-3">
+      <h5 class="card-title text-center fst-italic">Luis Migliore</h5>
+      <p class="card-text text-center">
+        Python - Django - SQL
+        <br>
+        <span class="fst-italic text-info">developer</span>
+      </p>
+      <span class="card-text fs-2 d-flex justify-content-center gap-3">
+        <a href="https://github.com/LNMIG" target="_blank" ><i class="bi bi-github social-icon-github"></i></a>
+        <a href="https://www.linkedin.com/in/engineer-luis-migliore/" target="_blank"><i class="bi bi-linkedin social-icon-linkedin"></i></a>
+      </span>
+    </div>
+  </div>
+
+  <div class="card rounded-3 border border-3 card_bg_img">
+    <img
+      src="{% static 'img/Luis.jpg' %}"
+      class="card-img-top w-25 p-25 rounded-circle mx-auto border border-3 border-secondary"
+      alt="..."
+    >
+    <div class="card-body rounded-3">
+      <h5 class="card-title text-center fst-italic">Luis Migliore</h5>
+      <p class="card-text text-center">
+        Python - Django - SQL
+        <br>
+        <span class="fst-italic text-info">developer</span>
+      </p>
+      <span class="card-text fs-2 d-flex justify-content-center gap-3">
+        <a href="https://github.com/LNMIG" target="_blank" ><i class="bi bi-github social-icon-github"></i></a>
+        <a href="https://www.linkedin.com/in/engineer-luis-migliore/" target="_blank"><i class="bi bi-linkedin social-icon-linkedin"></i></a>
+      </span>
+    </div>
+  </div>
+
+</div>
+
+{% endblock content%}

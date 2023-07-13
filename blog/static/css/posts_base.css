@@ -13,12 +13,12 @@ body {
   contain:content;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  position: relative;
+  /* position: relative; */
   }
 
 .nav_bg_color {
-  margin-top: 0em;
   background-color: #2b4353;
+  font-family: 'Roboto';
   }

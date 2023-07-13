@@ -2,7 +2,7 @@
   position:absolute;
   top: 0;
   background-color: #000000;
-  border-bottom: 4px solid #2b4353;
+  border-bottom: 1px solid #2b4353;
   border-image: linear-gradient(
       to right,
       transparent 10%,
@@ -12,7 +12,17 @@
     font-family: 'Roboto';
   }
 
-.img_logo {
+.logo-container {
+  border-bottom: 1px solid #2b4353;
+  border-image: linear-gradient(
+      to right,
+      transparent 10%,
+      #ffffff,
+      transparent 90%
+    ) 5;
+}
+
+.img-size {
   width: 4em;
   height: 4em;
   mix-blend-mode:hard-light;
