@@ -1,0 +1,19 @@
+.header_bg_color {
+  position:absolute;
+  top: 0;
+  background-color: #000000;
+  border-bottom: 4px solid #2b4353;
+  border-image: linear-gradient(
+      to right,
+      transparent 10%,
+      #ffffff,
+      transparent 90%
+    ) 5;
+    font-family: 'Roboto';
+  }
+
+.img_logo {
+  width: 4em;
+  height: 4em;
+  mix-blend-mode:hard-light;
+  }

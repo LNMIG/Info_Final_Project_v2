@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../img/AI_1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  contain:content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  }
+
+.nav_bg_color {
+  margin-top: 0em;
+  background-color: #2b4353;
+  }
